@@ -442,19 +442,19 @@ a{
   }
   
   #project1 {
-    background-image: url(./images/projects/Project1.png);
+    background-image: url(.Images/projects/Project1.png);
     margin-left: 35px;
   }
   #project2 {
-    background-image: url(./images/projects/Project2.png);
+    background-image: url(.Images/projects/Project2.png);
     margin-left: 140px;
   }
   #project3 {
-    background-image: url(./images/projects/Project3.png);
+    background-image: url(.Images/projects/Project3.png);
     margin-left: 35px;
   }
   #project4 {
-    background-image: url(./images/projects/Project4.png);
+    background-image: url(.Images/projects/Project4.png);
     margin-left: 140px;
   }
   
