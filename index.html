@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="wrapper">
-        <div class="container">
-            <div class="navbar">
+        <div class="">
+            <div class="navbar container">
                 <div class="logo-container">
                     <img src="Images/userAsset/a.png" class="logo">
                     <div class="logo-text">lok Upadhyay</div>
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="hero-section">
+            <div class="hero-section container">
 
                 <div class="absolute faded-text">
                     Alok Upadhyay
@@ -224,7 +224,7 @@
                   <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
                   <img src="./images/stack/React.png" alt="" class="skills-logo" />
                   <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
-                  <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
+                  <img src="./images/stack/NextJsCircle.png" alt="" class="skills-logo" />
                   <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
                   <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
                   <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
@@ -242,30 +242,74 @@
                 </div>
               </div>
             
-          <div class="contact-us-form">
-            
+          <div class="contact-us-form" id="contactme">
+            <div class="container">
+              <h1 class="contact-us-heading">Contact Me</h1>
+              <h3 class="contact-us-subheading">Questions, Thoughts, Or Just Want To Say Hello?</h3>
+              <div class="contact-us-form">
+                <from class="form" action="">
+                  <div class="form-field-container">
+                    <input type="text" class="formfield" name="name" id="" placeholder="Enter Your Name"/>
+                    <input type="email" class="formfield" name="email" id="" placeholder="Enter Your Email"/>
+                    <input class="formfield" type="text" name="subject" id="" placeholder="Enter Your Subject"/>
+                    <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter your message"></textarea>
+
+                  </div>
+                  <div>
+                    <button type="submit" class="btn-pink" id="submit-btn">
+                      Send Message  <i class="submit-icon fa-solid fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </from>
+              </div>
+            </div>
           </div>
+
+          <footer>
+            <div class="container">
+              <div class="footer-wrapper">
+                <div class="footer-faded-text">Alok Upadhyay</div>
+                <div class="link-wrapper">
+                  <div>
+                    <a href="#projects">Projects</a>
+                  </div>
+                  <div>
+                    <a href="#skills">Skills</a>
+                  </div>
+                  <div>
+                    <a href="#contactme">Contact Me</a>
+                  </div>
+                </div>
+                <div class="icon-wrapper">
+                  <i class="fa-brands fa-linkedin icon"></i>
+                  <i class="fa-brands fa-github icon"></i>
+                  <i class="fa-brands fa-twitter icon"></i>
+                  <i class="fa-brands fa-instagram icon"></i>
+                  <i class="fa-regular fa-envelope icon"></i>
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
 
-       
 
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+      <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-    <script>
-    var typeData = new Typed(".role", {
-      strings: [
-        "Full Stack Developer",
-        "Web Developer",
-        "UI-UX Designer",
-        "Backend Developer",
-        "Coder",
-      ],
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 80,
-      backDelay: 1000,
-    });
   </script>
 </body>
 </html>
